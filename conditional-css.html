@@ -4,7 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Antonio Gonzalez</title>
+    <!-- Method 1: External CSS Part 1 -->
     <link rel="stylesheet" href="main.css">
+
+    <!-- Method 2: Internal CSS Part 1 -->
+     <style>
+        .internal-css{
+            color: #038c7f;
+            background-color: #04bfad;
+        }
+     </style>
 </head>
 <body>
     <header>
@@ -17,11 +26,30 @@
                 <li><a href="conditional-css.html">Conditional CSS</a></li>
             </ul>
         </nav>
-        <h1>Applying Styles Using Inline, Internal, and External CSS</h1>
+        <h1>Three Ways to Apply CSS</h1>
     </header>
 
     <main>
+        <!-- Section 1: External CSS -->
+        <section>
+            <h2>External CSS</h2>
+            <!-- Method 1: External CSS Part 2 -->
+            <p class="external-css">This text is styled using external CSS.</p>
+        </section>
 
+        <!-- Section 2: Internal CSS -->
+        <section>
+            <h2>Internal CSS</h2>
+            <!-- Method 2: Internal CSS Part 2 -->
+            <p class="internal-css">This text is styled using internal CSS.</p>
+        </section>
+
+        <!-- Section 3: Inline CSS -->
+        <section>
+            <h2>Inline CSS</h2>
+            <!-- Method 3: Inline CSS -->
+            <p style="color: #04BFAD;">This text is styled using inline CSS.</p>
+        </section>
     </main>
 
     <footer>
